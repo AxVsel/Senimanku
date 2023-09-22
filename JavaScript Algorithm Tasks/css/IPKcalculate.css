@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.section_a {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.tab {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+.tab thead {
+  background-color: darkgray;
+}
+.tab tbody {
+  background-color: wheat;
+}
+.tab p {
+  padding-left: 20px;
+}
+
+.tab input {
+  width: 180px;
+}
+.tab input p {
+  margin-top: 20px;
+}
+
+.tab button {
+  margin-left: 20px;
+  border: none;
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: blue;
+}
+
+.tab button:hover {
+  background-color: red;
+}
+
+.section_b {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.section_b button {
+  margin-left: 20px;
+  border: none;
+  width: 180px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: blue;
+}
+
+.section_b button:hover {
+  background-color: red;
+}
+
+.section_c {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.section_d {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.section_d button {
+  margin-left: 20px;
+  border: none;
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: blue;
+}
+
+.section_d button:hover {
+  background-color: red;
+}

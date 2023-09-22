@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cashier.css" />
+    <script src="script/cashier.js"></script>
+    <title>Cashier</title>
+  </head>
+  <body>
+    <h1>Cashier</h1>
+    <header>
+      <input
+        type="number"
+        id="jumlah_barang"
+        placeholder="masukan jumlah barang"
+      />
+      <button onclick="calc()">Tambah</button>
+    </header>
+    <section>
+      <div class="kolom">
+        <table class="tab">
+          <thead>
+            <tr>
+              <th>Nama Barang</th>
+              <th>Harga Barang</th>
+              <th>Jumlah Barang</th>
+            </tr>
+          </thead>
+          <tbody id="rest"></tbody>
+        </table>
+        <section class="second">
+          <button onclick="calculateitems()">Hitung</button>
+        </section>
+
+        <label for="">Total Harga</label>
+        <input type="number" id="total" readonly />
+        <label for="">Bayar</label>
+        <input type="number" id="bayar" />
+        <label for="">Kembalian</label>
+        <input type="text" id="kembalian" readonly />
+        <section class="second">
+          <button onclick="bayarbarang()">Bayar</button>
+        </section>
+        <section class="second">
+          <button onclick="refreshPage()">Reset</button>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
