@@ -18,3 +18,12 @@ model Following {
 
   @@map("following")      //untuk mengubah nama table
 }
+
+model Visibility {
+  id              Int     @id @default(autoincrement())
+  deskripsi       String  
+  createdAt     DateTime  @default(now())
+  updateAt      DateTime  @updatedAt
+
+  @@map("visibility")
+}
